@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_marginTop="50dp"
+    tools:context=".SignUp">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_person_black_24dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/colorAccent">
+
+
+        <EditText
+            android:id="@+id/email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:importantForAutofill="no" />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        android:textColorHint="@color/colorAccent">
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:importantForAutofill="no" />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        android:textColorHint="@color/colorAccent">
+
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:importantForAutofill="no" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+<!--   <RadioGroup-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:layout_marginTop="20dp"-->
+<!--       android:orientation="horizontal">-->
+<!--    <RadioButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Male"-->
+<!--        android:layout_marginLeft="65dp"-->
+<!--        android:textSize="20sp"/>-->
+<!--    <RadioButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Female"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:textSize="20sp"/>-->
+<!--   </RadioGroup>-->
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="@string/register"
+        android:textColor="#fff"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "168119224823",
+    "firebase_url": "https://awsencryptapp.firebaseio.com",
+    "project_id": "awsencryptapp",
+    "storage_bucket": "awsencryptapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168119224823:android:14b77eba5e80ccea31c6f2",
+        "android_client_info": {
+          "package_name": "com.example.awsencryptapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168119224823-7qbvh93sbva00l04p83cj7t5749nvu65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.awsencryptapp",
+            "certificate_hash": "4ee3992186338963eb707abfde896dc5a83bd821"
+          }
+        },
+        {
+          "client_id": "168119224823-f8ercnrrgb2d9omp0imj384igibl5vsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCIDcIolZ-phU6xPTIAy_-nX_0Ced663o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168119224823-f8ercnrrgb2d9omp0imj384igibl5vsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

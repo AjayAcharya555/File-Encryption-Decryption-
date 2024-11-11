@@ -1,0 +1,34 @@
+{
+    "UserAgent": "aws-amplify-cli/0.1.0",
+    "Version": "0.1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "ap-south-1:efcb04f0-4d5e-4097-a17e-5b86524e329b",
+                "Region": "ap-south-1"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "ap-south-1_1INYPRlUw",
+            "AppClientId": "kc6v4f6802mjc9anlr11tgge3",
+            "AppClientSecret": "1lar4fbou3b6sh1svt27pm890mt8tgigl6778q8547knudhie23r",
+            "Region": "ap-south-1"
+        }
+    },
+    "Auth": {
+        "Default": {
+            "authenticationFlowType": "USER_SRP_AUTH"
+        }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "mynewaws144915-master",
+            "Region": "ap-south-1"
+        }
+    }
+}

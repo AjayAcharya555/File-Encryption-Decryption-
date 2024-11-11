@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_person_black_24dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/colorAccent">
+
+
+        <EditText
+            android:id="@+id/email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorAccent"
+        app:passwordToggleEnabled="true">
+
+
+        <EditText
+            android:id="@+id/login_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+            android:background="@color/colorAccent"
+            android:text="Login"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorAccent"
+            android:onClick="btn_signup"
+            android:text="Register"
+            android:layout_marginRight="10dp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Click Register to SignUp new account ">
+
+    </TextView>
+</LinearLayout>
